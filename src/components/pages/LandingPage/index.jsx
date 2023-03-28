@@ -1,12 +1,15 @@
 import React from 'react'
+
 import NavBar from '@/components/shared/NavBar'
 import Heroes from './Heroes'
+import Partners from './Partners'
 
 export default function LandingPage() {
   return (
-    <div>
+    <div className='relative'>
         <NavBar />
         <Heroes />
+        <Partners />
     </div>
   )
 }
