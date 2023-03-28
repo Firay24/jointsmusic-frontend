@@ -12,7 +12,7 @@ import vodafone from 'src/assets/images/vodafone.png'
 
 export default function Partners() {
   return (
-    <div className='flex justify-center bg-[#737373] backdrop-blur-3xl bg-opacity-[0.20] flex-wrap px-20 py-5 gap-x-20 items-center gap-y-5'>
+    <div className='flex -z-10 justify-center bg-[#737373] backdrop-blur-3xl bg-opacity-[0.20] flex-wrap px-20 py-5 gap-x-20 items-center gap-y-5'>
         <div>
             <Image src={netflix} className="w-[80px]"></Image>
         </div>

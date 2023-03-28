@@ -9,7 +9,7 @@ export default function NavBar() {
 
     return (
         <header>
-            <div className='fixed top-0 bg-[#1C1B20] w-screen flex justify-between px-10 py-5 text-purple-primary font-poppins'>
+            <div className='fixed top-0 bg-[#1C1B20] w-screen flex justify-between px-10 py-5 text-purple-primary font-poppins z-10'>
                 <div className='flex items-center gap-2'>
                     <Image src={logo} alt="logo" className='w-5 h-5' />
                     <p className='font-bold text-lg'>joints <span className='text-white'>music</span></p>
