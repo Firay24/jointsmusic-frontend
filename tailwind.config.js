@@ -16,7 +16,8 @@ module.exports = {
       colors: {
         "black-primary": '#1C1B20',
         "purple-primary": '#7F5283',
-        "purple-dark": '#6F3E73'
+        "purple-dark": '#6F3E73',
+        "red-primary": '#E32934'
       }
     },
   },
