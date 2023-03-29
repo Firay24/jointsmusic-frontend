@@ -4,9 +4,10 @@ import guest1 from 'src/assets/images/guests1.png'
 
 export default function Guests() {
   return (
-    <div className='flex flex-col font-poppins text-white px-10 pt-10 pb-20 h-max w-full items-center'>
+    <div className="flex flex-col font-poppins text-white px-10 py-52 h-max w-full items-center">
         <div className='font-semibold text-3xl'>Main <span className='text-red-primary'>Guests</span></div>
         <div className='flex w-full gap-x-10 justify-center mt-10'>
+            <Image ></Image>
             <div className='w-1/6 relative'>
                 <div className='absolute z-10 text-sm p-2 bg-purple-primary h-8 w-8 flex justify-center items-center'>
                     <p>1</p>

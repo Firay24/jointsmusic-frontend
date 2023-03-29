@@ -5,6 +5,7 @@ import Heroes from './Heroes'
 import Partners from './Partners'
 import About from './About'
 import Guests from './Guests'
+import TicketConcert from './TicketConcert'
 
 export default function LandingPage() {
   return (
@@ -14,6 +15,7 @@ export default function LandingPage() {
         <Partners />
         <About />
         <Guests />
+        <TicketConcert />
     </div>
   )
 }
