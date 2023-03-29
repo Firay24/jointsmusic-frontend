@@ -24,7 +24,9 @@ export default function NavBar() {
                             <Link href="/ticket" className={router.pathname === "/ticket" ? "text-white" : ""}>Ticket</Link>
                         </li>
                         <li className='hover:text-white'>Contact</li>
-                        <li className='bg-purple-primary text-white p-3 rounded-full hover:bg-purple-dark'>Check Order</li>
+                        <li className='bg-purple-primary text-white p-3 rounded-full hover:bg-purple-dark'>
+                            <Link href="/check-order">Check Order</Link>
+                        </li>
                     </ul>
                 </div>
             </div>
