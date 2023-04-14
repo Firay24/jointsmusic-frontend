@@ -1,17 +1,17 @@
 import React from 'react'
-import Step from './Components/Step'
-import Account from './Components/Account'
-import OrderSummary from './Components/OrderSummary'
+import Payment from './Components/Payment'
 import FooterTicket from './Components/FooterTicket'
+import Step from './Components/Step'
+import OrderSummary from './Components/OrderSummary'
 
-function AccountPage() {
+export default function PaymentPage() {
   return (
     <div>
         <div className='mt-28 ml-10'>
           <Step/>
           <div className='flex mt-5 justify-between mr-10'>
             <div className='w-2/5'>
-              <Account/>
+              <Payment/>
             </div>
             <div className='w-2/5'>
               <OrderSummary/>
@@ -19,10 +19,8 @@ function AccountPage() {
           </div>
         </div>
         <div className='border-t mx-10 mt-16 border-purple-primary'>
-          <FooterTicket />
+          <FooterTicket/>
         </div>
     </div>
   )
 }
-
-export default AccountPage
