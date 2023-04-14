@@ -17,7 +17,10 @@ module.exports = {
         "black-primary": '#1C1B20',
         "purple-primary": '#7F5283',
         "purple-dark": '#6F3E73',
-        "red-primary": '#E32934'
+        "red-primary": '#E32934',
+        "grey-primary": '#828282',
+        "red-primary": '#FF1C60',
+        "red-dark": '#EC2863'
       },
       backgroundImage: {
         "ticket": "url('./src/assets/images/imgTicket.png')"
